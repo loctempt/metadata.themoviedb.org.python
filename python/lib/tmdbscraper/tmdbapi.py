@@ -34,7 +34,8 @@ HEADERS = (
 api_utils.set_headers(dict(HEADERS))
 
 TMDB_PARAMS = {'api_key': 'f090bb54758cabf231fb605d3e3e0468'}
-BASE_URL = 'https://api.themoviedb.org/3/{}'
+# BASE_URL = 'https://api.themoviedb.org/3/{}'
+BASE_URL = 'https://13.226.61.77/3/{}'
 SEARCH_URL = BASE_URL.format('search/movie')
 FIND_URL = BASE_URL.format('find/{}')
 MOVIE_URL = BASE_URL.format('movie/{}')
